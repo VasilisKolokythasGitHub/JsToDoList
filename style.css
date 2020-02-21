@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	height: 100%;
+	background-color: #111;
+}
+
+.styling{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	margin-bottom: 2%;
+	font-family: sans-serif;
+}
+.styling span{
+	color: lime;
+	font-family: sans-serif;
+	}
+
+h1{
+	font-size: 4vw;
+	font-weight: 800;
+
+}
+
+.input_div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+.input_div .input{
+	padding: 0.5rem 1rem;
+	height: 50px;
+	background-color: #fff;
+	outline: none;
+	width: 450px;
+	border: none; 
+	font-size:1.1rem;
+	margin: 0.25rem;
+	border-radius: 25px;
+}
+
+
+.addButton
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-color: lime;
+	color: #fff;
+	margin:0.25rem;
+}
+
+.addButton:hover
+{
+cursor: pointer;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top:2rem;
+}
+
+.item
+{
+	padding: 0.5rem;
+	margin-bottom: 0.5vw;
+	border-bottom: 4px solid #fff;
+}
+
+.item_input
+{
+	background: none;
+	outline: none;
+	color:#fff;
+	border: none;
+	font-size: 2vw;
+	margin: 0 0.1vw;
+}
+
+.editButton
+{
+	font-size: 1.2vw;
+	background: none;
+	outline: none;
+	color: lime;
+	border: none;
+	margin: 0 0.75rem;
+	cursor: pointer;
+
+}
+
+.removeButton
+{
+	font-size: 1.2vw;
+	background: none;
+	outline: none;
+	color: #E00;
+	border: none;
+	margin: 0 0.75rem;
+	cursor: pointer;
+
+}
